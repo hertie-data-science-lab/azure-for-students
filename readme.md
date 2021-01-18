@@ -28,13 +28,13 @@ For Image, select See all images -> in the Marketplace, search for Data Science 
 
 * For Size, select See all sizes -> go to the search bar (Search by VM size) and search for NC6 (the VMs with GPU provision) -> Choose NC6_Promo.  
 
-* For Authentication type, choose SSH public key, choose an unique username, then Review + Create. You will prompted to download an SSH key to your local machine (a file with .pem extension). Keep it a safe folder as it will be the key to access your remote virtual machine. 
+* For Authentication type, choose SSH public key, choose an unique username, then Review + Create. You will prompted to download an SSH key to your local machine (a file with .pem extension). Keep it in a safe folder as it will be the key to access your remote virtual machine. 
 
 ### Step 3: Access your Virtual Machine from your local machine
 
 After a few minutes, your Virtual Machine will be set up and you can start to use it. Click on Connect -> SSH 
 
-You can then follow the steps indicated to connect your : 
+You can then follow the steps indicated to connect to your Azure hosted remote machine: 
 
 * Fire up your terminal (or command prompt if you use Windows)
 * Change file access level for the SSH private key file (the .pem file) with the following command:

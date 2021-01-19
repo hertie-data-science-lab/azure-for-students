@@ -28,7 +28,7 @@ For Image, select See all images -> in the Marketplace, search for Data Science 
 
 * For Size, select See all sizes -> go to the search bar (Search by VM size) and search for NC6 (the VMs with GPU provision) -> Choose NC6_Promo.  
 
-* For Authentication type, choose SSH public key, choose an unique username, then Review + Create. You will prompted to download an SSH key to your local machine (a file with .pem extension). Keep it in a safe folder as it will be the key to access your remote virtual machine. 
+* For Authentication type, choose SSH public key, choose an unique username, then Review + Create. You will be prompted to download an SSH key to your local machine (a file with .pem extension). Keep it in a safe folder as it will be the key to access your remote virtual machine. 
 
 ### Step 3: Access your Virtual Machine from your local machine
 
@@ -62,7 +62,7 @@ After everything is set up properly, you will have access to 6 different Python 
 *    - azureml_py36_pytorch                                               
 *    - azureml_py36_automl
 
-The default environment is python37_default. You can switch to the other environment with the following command, depending on your need. Each environment will have a set of tools and libraries pre-installed and ready for your data science projects: 
+The default environment is python37_default. You can switch to the other environment with the following command. Depending on your need, each environment will have a set of tools and libraries pre-installed and ready for your data science projects: 
 
 ```console
 conda activate py37_tensorflow
@@ -88,7 +88,7 @@ jupyter lab
 
 The notebook will be launched in port 127.0.0.1:8888, which you can visit by copying and pasting the link on the terminal to your browser. 
 
-You can check the GPU is available in your notebook with: 
+You can check if the GPU is available in your notebook with: 
 
 ```python
 import torch #if you use the pytorch environment
